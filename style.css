@@ -1,0 +1,32 @@
+@import url('https://fonts.googleapis.com/css2?family=Cute+Font&family=Nova+Cut&display=swap');
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+html, body{
+    height: 100%;
+}
+body{
+    display: grid;
+    background: black;
+    place-items: center;
+}
+.clock{
+    padding: 0 5px;
+    height: 120px;
+    line-height: 120px;
+    width: 500px;
+    text-align: center;
+    border: 5px solid aqua;
+    /*box-shadow: -3px -3px 7px (rgba(255, 255, 255, 0.05)),
+                3px 3px 5px (rgba(0, 0, 0, 0.5));**/
+
+}
+.clock .show{
+    font-size: 60px;
+    color: aqua;
+    letter-spacing: 5px;
+    font-family: 'Cute Font', cursive;
+    /*font-family: 'Nova Cut', cursive;*/
+}
